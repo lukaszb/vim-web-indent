@@ -19,7 +19,7 @@ if !exists("g:js_indent_log")
 endif
 
 setlocal indentexpr=GetJsIndent(v:lnum)
-setlocal indentkeys=
+setlocal indentkeys=o
 
 
 setlocal cindent
